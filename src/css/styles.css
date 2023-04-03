@@ -1,0 +1,12 @@
+:root {
+    --black: #1A120B;
+    --brown: #3C2A21;
+    --light: #D5CEA3;
+    --pale: #E5E5CB;
+}
+/* CSS Reset */
+
+body {
+  margin: 0;
+  padding: 0;
+}
