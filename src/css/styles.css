@@ -7,6 +7,10 @@
     --brown: #3C2A21;
     --light: #D5CEA3;
     --pale: #E5E5CB;
+    --ff-primary: 'Source Code Pro',
+        sans-serif;
+        --ff-secondary: 'Source Code Pro',
+            monospace;
 }
 /* CSS Reset */
 
