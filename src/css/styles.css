@@ -1,3 +1,7 @@
+/* import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;1,900&display=swap');
+
+/* define color variables */
 :root {
     --black: #1A120B;
     --brown: #3C2A21;
