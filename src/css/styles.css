@@ -9,9 +9,10 @@
     --pale: #E5E5CB;
     --ff-primary: 'Source Code Pro',
         sans-serif;
-        --ff-secondary: 'Source Code Pro',
-            monospace;
+    --ff-secondary: 'Source Code Pro',
+        monospace;
 }
+
 /* end root variables  */
 
 /* CSS Reset */
@@ -21,15 +22,17 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 /* end of reset */
 
-body{
+body {
     font-family: 'Source Code Pro', monospace;
     color: var(--brown);
 }
+
 /* Portfolio section Styling Start */
 .portfolio__items-container {
     display: flex;
