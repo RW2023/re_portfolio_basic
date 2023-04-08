@@ -58,8 +58,10 @@ body {
 
 body {
     font-family: 'Source Code Pro', monospace;
-    color: var(--brown);
+    color: var(--clr-dark);
     background-color: var(--clr-light);
+    margin: 0;
+    
 }
 
 /* Portfolio section Styling Start */
