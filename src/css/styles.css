@@ -5,8 +5,7 @@
 }
 
 /* import Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:ital,wght@0,600;0,800;0,900;1,400&display=swap');
-/* define root variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:ital,wght@0,300;0,600;0,800;0,900;1,300;1,400&display=swap');/* define root variables */
 :root {
     --black: #1A120B;
     --brown: #3C2A21;
@@ -16,6 +15,8 @@
         sans-serif;
     --ff-secondary: 'Poppins',
         monospace;
+    --fw-reg:300;
+    --fw-bold:900;
 }
 
 /* end root variables  */
