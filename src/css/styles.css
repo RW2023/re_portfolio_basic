@@ -54,6 +54,8 @@ body {
 
 /* end of reset */
 
+/* General Styling */
+
 body {
     font-family: 'Source Code Pro', monospace;
     color: var(--brown);
@@ -118,7 +120,8 @@ body {
 }
 /*End of  response rules */
 
-/* Portfolio section Styling End */
+/* portfolio section styling end */
+/* general styling end */
 
 /* Summary: This will make the portfolio items display side by side,
 with a gap of 20px between them,
