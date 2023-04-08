@@ -59,6 +59,7 @@ body {
 body {
     font-family: 'Source Code Pro', monospace;
     color: var(--brown);
+    background-color: var(--clr-light);
 }
 
 /* Portfolio section Styling Start */
