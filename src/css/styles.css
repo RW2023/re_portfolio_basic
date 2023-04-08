@@ -23,6 +23,11 @@
     --clr-light: var(--light);
     --clr-dark: var(--black);
     --clr-accent:var(--pale);
+
+    --fs-h1: 3rem;
+    --fs-h2:2.25rem;
+    --fs-h3:1.25rem;
+    --fs-body:1rem;
 }
 
 /* end root variables  */
