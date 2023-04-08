@@ -29,7 +29,16 @@
     --fs-h3:1.25rem;
     --fs-body:1rem;
 }
+/* media Query rules for FS large screens  */
 
+@media screen and (min-width:800px){
+:root{
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1rem;
+}
+}
 /* end root variables  */
 
 /* CSS Reset */
@@ -51,7 +60,7 @@ body {
 }
 
 /* Portfolio section Styling Start */
-
+/* response rules */
 /* rules for desktops and above */
 @media screen and (min-width: 768px) {
     .portfolio__items-container {
@@ -107,6 +116,7 @@ body {
         height: 100%;
     }
 }
+/*End of  response rules */
 
 /* Portfolio section Styling End */
 
