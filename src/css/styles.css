@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-
 /* import Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:ital,wght@0,600;0,800;0,900;1,400&display=swap');
 /* define root variables */
 :root {
     --black: #1A120B;
@@ -16,7 +14,7 @@
     --pale: #E5E5CB;
     --ff-primary: 'Source Code Pro',
         sans-serif;
-    --ff-secondary: 'Source Code Pro',
+    --ff-secondary: 'Poppins',
         monospace;
 }
 
