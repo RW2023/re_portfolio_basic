@@ -39,32 +39,64 @@ body {
 }
 
 /* Portfolio section Styling Start */
-.portfolio__items-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+/* rules for desktops and above */
+@media screen and (min-width: 768px) {
+    .portfolio__items-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .portfolio__item {
+        flex: 0 0 calc(50% - 20px);
+        /* adjust the width of each item as needed */
+        margin-bottom: 20px;
+    }
+
+    .portfolio__item--iframe {
+        position: relative;
+        width: 100%;
+        padding-bottom: 75%;
+        /* adjust the height of each item as needed */
+    }
+
+    .portfolio__item--iframe object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
-.portfolio__item {
-    flex: 0 0 calc(50% - 20px);
-    /* adjust the width of each item as needed */
-    margin-bottom: 20px;
+/* rules for smaller devices */
+@media screen and (max-width: 767px) {
+    .portfolio__items-container {
+        display: block;
+    }
+
+    .portfolio__item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .portfolio__item--iframe {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* 16:9 aspect ratio */
+    }
+
+    .portfolio__item--iframe object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
-.portfolio__item--iframe {
-    position: relative;
-    width: 100%;
-    padding-bottom: 75%;
-    /* adjust the height of each item as needed */
-}
-
-.portfolio__item--iframe object {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+/* Portfolio section Styling End */
 
 /* Summary: This will make the portfolio items display side by side,
 with a gap of 20px between them,
