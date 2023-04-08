@@ -7,7 +7,7 @@
 /* import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:ital,wght@0,300;0,600;0,800;0,900;1,300;1,400&display=swap');
 
-/* define root variables */
+/* define custom styles*/
 :root {
     --black: #1A120B;
     --brown: #3C2A21;
@@ -39,7 +39,7 @@
     --fs-body: 1rem;
 }
 }
-/* end root variables  */
+/* end custom styles  */
 
 /* CSS Reset */
 
