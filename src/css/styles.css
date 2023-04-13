@@ -63,8 +63,12 @@ body {
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    line-height: 1.6;
+    line-height: 1.6rem;
+}
 
+img{
+    display: block;
+    max-width: 100%;
 }
 
 /* Portfolio section Styling Start */
